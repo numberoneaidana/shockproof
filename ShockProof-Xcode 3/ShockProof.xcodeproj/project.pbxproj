@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7099AE8830A8ED0400C84B2F /* StatementsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099AE8730A8ECFF00C84B2F /* StatementsScreen.swift */; };
+		BB0000000000000000000000 /* ShockProofApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000000 /* ShockProofApp.swift */; };
+		BB0000000000000000000001 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000001 /* API.swift */; };
+		BB0000000000000000000002 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000002 /* AppModel.swift */; };
+		BB0000000000000000000003 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* Theme.swift */; };
+		BB0000000000000000000004 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000004 /* WelcomeView.swift */; };
+		BB0000000000000000000005 /* FoundationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000005 /* FoundationScreen.swift */; };
+		BB0000000000000000000006 /* FuturesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000006 /* FuturesScreen.swift */; };
+		BB0000000000000000000007 /* StressRisksScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000007 /* StressRisksScreens.swift */; };
+		BB0000000000000000000008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000008 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7099AE8730A8ECFF00C84B2F /* StatementsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsScreen.swift; sourceTree = "<group>"; };
+		7099AE8930A9020D00C84B2F /* GuideScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideScreen.swift; sourceTree = "<group>"; };
+		AA0000000000000000000000 /* ShockProofApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShockProofApp.swift; sourceTree = "<group>"; };
+		AA0000000000000000000001 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AA0000000000000000000002 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		AA0000000000000000000003 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AA0000000000000000000004 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000005 /* FoundationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationScreen.swift; sourceTree = "<group>"; };
+		AA0000000000000000000006 /* FuturesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesScreen.swift; sourceTree = "<group>"; };
+		AA0000000000000000000007 /* StressRisksScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressRisksScreens.swift; sourceTree = "<group>"; };
+		AA0000000000000000000008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0000000000000000000009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0000000000000000000001 /* ShockProof.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShockProof.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE0000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD0000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				DD0000000000000000000002 /* ShockProof */,
+				DD0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD0000000000000000000002 /* ShockProof */ = {
+			isa = PBXGroup;
+			children = (
+				7099AE8730A8ECFF00C84B2F /* StatementsScreen.swift */,
+				AA0000000000000000000000 /* ShockProofApp.swift */,
+				AA0000000000000000000001 /* API.swift */,
+				AA0000000000000000000002 /* AppModel.swift */,
+				AA0000000000000000000003 /* Theme.swift */,
+				AA0000000000000000000004 /* WelcomeView.swift */,
+				AA0000000000000000000005 /* FoundationScreen.swift */,
+				AA0000000000000000000006 /* FuturesScreen.swift */,
+				AA0000000000000000000007 /* StressRisksScreens.swift */,
+				AA0000000000000000000008 /* Assets.xcassets */,
+				AA0000000000000000000009 /* Info.plist */,
+				7099AE8930A9020D00C84B2F /* GuideScreen.swift */,
+			);
+			path = ShockProof;
+			sourceTree = "<group>";
+		};
+		DD0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000001 /* ShockProof.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0000000000000000000001 /* ShockProof */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110000000000000000000002 /* Build configuration list for PBXNativeTarget "ShockProof" */;
+			buildPhases = (
+				EE0000000000000000000002 /* Sources */,
+				EE0000000000000000000001 /* Frameworks */,
+				EE0000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShockProof;
+			productName = ShockProof;
+			productReference = CC0000000000000000000001 /* ShockProof.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF0000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FF0000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 110000000000000000000001 /* Build configuration list for PBXProject "ShockProof" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD0000000000000000000001;
+			productRefGroup = DD0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0000000000000000000001 /* ShockProof */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE0000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000008 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE0000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7099AE8830A8ED0400C84B2F /* StatementsScreen.swift in Sources */,
+				BB0000000000000000000000 /* ShockProofApp.swift in Sources */,
+				BB0000000000000000000001 /* API.swift in Sources */,
+				BB0000000000000000000002 /* AppModel.swift in Sources */,
+				BB0000000000000000000003 /* Theme.swift in Sources */,
+				BB0000000000000000000004 /* WelcomeView.swift in Sources */,
+				BB0000000000000000000005 /* FoundationScreen.swift in Sources */,
+				BB0000000000000000000006 /* FuturesScreen.swift in Sources */,
+				BB0000000000000000000007 /* StressRisksScreens.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		220000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		220000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		220000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShockProof/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShockProof;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShockProof;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		220000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShockProof/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShockProof;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShockProof;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110000000000000000000001 /* Build configuration list for PBXProject "ShockProof" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220000000000000000000001 /* Debug */,
+				220000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110000000000000000000002 /* Build configuration list for PBXNativeTarget "ShockProof" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220000000000000000000003 /* Debug */,
+				220000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF0000000000000000000002 /* Project object */;
+}
