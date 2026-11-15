@@ -12,3 +12,6 @@ build/
 DerivedData/
 *.xcuserstate
 xcuserdata/
+
+# Node / React
+node_modules/
